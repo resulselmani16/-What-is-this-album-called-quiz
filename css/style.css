@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: #b8c6db;
+
+}
+
+.image{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 15px rgba(100, 100, 100, 0.1);}
+
+.container-quiz{
+    background: #fff;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 0 12px 5px rgba(100, 100, 100, 0.1);
+}
+
+.quiz-header{
+    padding: 30px;
+}
+.question{
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.submit-btn{
+    width: 100%;
+    background-color: #0984e3;
+    color: white;
+    display: block;
+    border: none;
+    height: 70px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+    transition: 0.2s;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+.submit-btn:hover, .btn-results:hover{
+    background-color: #1d9dff;
+    transition: 0.2s;
+}
+
+.submit-btn:focus, .btn-results:focus{
+    outline: none !important;
+}
+
+.btn-results{
+    width: 35%;
+    display: block;
+    margin: 5% auto;
+    background-color: #0984e3;
+    color: white;
+    display: block;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+    transition: 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
